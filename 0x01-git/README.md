@@ -30,3 +30,11 @@ We need to use the git add command to include the changes of a file(s) into our 
 To add a single file: ```git add <file>```
 
 To add everything at once:```git add -A``` or ```git add .```
+## 6. Git commit
+This is maybe the most-used command of Git. Once we reach a certain point in development, we want to save our changes (maybe after a specific task or issue).
+
+Git commit is like setting a checkpoint in the development process which you can go back to later if needed.
+
+We also need to write a short message to explain what we have developed or changed in the source code.
+
+```git commit -m "commit message"```
