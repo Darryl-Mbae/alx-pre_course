@@ -7,3 +7,29 @@ Branches are highly important in the git world. By using branches, several devel
 * Creating a new branch: ```git branch <branch-name>``` - This command will create a branch locally.
 * Viewing branches: ```git branch``` or ```git branch --list ```
 * Deleting a branch: ```git branch -d <branch-name>```
+## 3. Git checkout
+This is also one of the most used Git commands. To work in a branch, first you need to switch to it. We use git checkout mostly for switching from one branch to another. We can also use it for checking out files and commits.
+
+```git checkout <name-of-your-branch>```
+## 4. Git status
+The Git status command gives us all the necessary information about the current branch. 
+
+```git status```
+We can gather information like:
+
+* Whether the current branch is up to date
+* Whether there is anything to commit, push or pull
+* Whether there are files staged, unstaged or untracked
+* Whether there are files created, modified or deleted
+
+## 5. Git add
+When we create, modify or delete a file, these changes will happen in our local and won't be included in the next commit (unless we change the configurations).
+
+We need to use the git add command to include the changes of a file(s) into our next commit. 
+
+To add a single file:
+
+```git add <file>```
+To add everything at once:
+
+```git add -A``` or ```git add .```
