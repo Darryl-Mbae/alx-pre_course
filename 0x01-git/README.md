@@ -46,11 +46,3 @@ After committing your changes, the next thing you want to do is send your change
 The git pull command is used to get updates from the remote repo. This command is a combination of git fetch and git merge which means that, when we use git pull, it gets the updates from remote repository (git fetch) and immediately applies the latest changes in your local (git merge).
 
 ```git pull <remote>```
-## 9. Git revert
-Sometimes we need to undo the changes that we've made. There are various ways to undo our changes locally or remotely (depends on what we need), but we must carefully use these commands to avoid unwanted deletions.
-
-A safer way that we can undo our commits is by using git revert. To see our commit history, first we need to use ```git log -- oneline:```
-
-Then we just need to specify the hash code next to our commit that we would like to undo:
-
-```git revert 3321844```
