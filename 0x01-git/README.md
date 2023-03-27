@@ -38,3 +38,11 @@ Git commit is like setting a checkpoint in the development process which you can
 We also need to write a short message to explain what we have developed or changed in the source code.
 
 ```git commit -m "commit message"```
+## 7. Git push
+After committing your changes, the next thing you want to do is send your changes to the remote server. Git push uploads your commits to the remote repository.
+
+```it push -u origin <branch_name>```
+## 8. Git pull
+The git pull command is used to get updates from the remote repo. This command is a combination of git fetch and git merge which means that, when we use git pull, it gets the updates from remote repository (git fetch) and immediately applies the latest changes in your local (git merge).
+
+```git pull <remote>```
