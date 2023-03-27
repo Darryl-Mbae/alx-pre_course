@@ -27,9 +27,6 @@ When we create, modify or delete a file, these changes will happen in our local 
 
 We need to use the git add command to include the changes of a file(s) into our next commit. 
 
-To add a single file:
+To add a single file: ```git add <file>```
 
-```git add <file>```
-To add everything at once:
-
-```git add -A``` or ```git add .```
+To add everything at once:```git add -A``` or ```git add .```
