@@ -1,3 +1,6 @@
+# Git Codes
+More in the README file in the folder
+
 # .gitignore
 
 When sharing your code with others, there are often files or parts of your project, you do not want to share.
